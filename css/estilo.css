@@ -1,0 +1,97 @@
+body {
+    font-family: Tahoma;
+    background-image: url(../img/sena.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+@media (min-width: 375px) {
+    body {
+        background: url(../img/telefono.jpg);
+        font-family: Tahoma;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        overflow: scroll;
+    }
+    form {
+        text-align: center;
+        position: center;
+        left: center;
+        color: black;
+    }
+}
+
+button,
+input,
+textarea {
+    display: inline-block;
+    /*width: 210px;*/
+    height: 18px;
+    padding: 4px;
+    margin-bottom: 9px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555555;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 1px;
+}
+
+#centrar {
+    text-align: center;
+    position: center;
+    left: center;
+    color: black;
+}
+
+form {
+    text-align: center;
+    position: center;
+    left: center;
+    color: black;
+}
+
+table {
+    border: 1px;
+    border-color: black;
+}
+
+.aa {
+    position: relative;
+    top: 80px;
+    width: 740px;
+    height: 498px;
+    margin: 0 auto;
+}
+
+.table {
+    border: 100px;
+}
+
+@media screen and (max-width: 1000px) .table tr {
+    margin-bottom: 8px;
+    border-bottom: 4px solid #ddd;
+    display: block;
+}
+
+
+}
+.table tr {
+    background-color: #f8f8f8;
+    border: 1px solid rgb(255, 0, 0);
+}
+.table {
+    width: 100%;
+    border: 2px solid rgb(22, 0, 121);
+    border-collapse: collapse;
+    margin: 2px;
+    /* padding: 10%; */
+    
+    font-family: Arial;
+    border-radius: 100px;
+}
