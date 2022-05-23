@@ -1,2 +1,0 @@
-# humano
-a
